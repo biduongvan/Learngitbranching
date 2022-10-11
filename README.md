@@ -7,4 +7,8 @@ git clone
 git commit<br>
 git checkout o/master<br>
 git commit<br>
-<b>remote3</b>
+<b>remote3</b><br>
+git fetch<br>
+<b>remote4</b><br>
+git pull<br>
+<b>remote5</b><br>
