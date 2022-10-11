@@ -1,4 +1,39 @@
-#====LearngitbranchingAdvanced
+=============MainCategorySolutions=============
+==intro1==
+git commit
+git commit
+==intro2==
+git branch bugFix
+git checkout bugFix
+==intro3==
+git checkout -b bugFix    
+git commit  
+git checkout main
+git commit
+git merge bugFix
+==intro4==
+git checkout -b bugFix    
+git commit    
+git checkout main   
+git commit    
+git checkout bugFix    
+git rebase main
+==rampup1==
+git checkout C4
+==rampup2==
+git checkout C4^
+==rampup3==
+git branch -f main C6
+git branch -f bugFix C0
+git checkout C1
+==rampup4==
+git reset local~1
+git checkout pushed
+git revert pushed
+==move1==
+git cherry-pick C3 C4 C7
+==move2==
+=============RemoteCategorySolutions=============
 ==remote1==
 git clone
 ==remote2==
