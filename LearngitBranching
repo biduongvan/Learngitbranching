@@ -33,6 +33,36 @@ git revert pushed
 ==move1==
 git cherry-pick C3 C4 C7
 ==move2==
+git rebase -i main~4 --aboveAll
+==mixed1==
+git checkout main
+git cherry-pick C4
+==mixed2==
+CHua lam ra
+==mixed3==
+git checkout main
+git cherry-pick C2
+git commit --amend
+git cherry-pick C3
+==mixed4==
+git tag v0 C1
+git tag v1 C2
+git checkout C2
+==mixed5==
+git commit
+==advanced1==
+git rebase main bugFix
+git rebase bugFix side
+git rebase side another
+git rebase another main
+==advanced2==
+git branch bugWork main~^2~
+==advanced3==
+git checkout one
+git cherry-pick C4 C3 C2
+git checkout two
+git cherry-pick C5 C4 C3 C2
+git branch -f three C2
 =============RemoteCategorySolutions=============
 ==remote1==
 git clone
