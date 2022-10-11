@@ -1,4 +1,10 @@
 # Learngitbranching
-remote1
+<b>remote1</b>
 <br>
 git clone
+<br>
+<b>remote2</b>
+git commit<br>
+git checkout o/master<br>
+git commit<br>
+<b>remote3</b>
